@@ -1,5 +1,7 @@
 ## poetry
 
+---
+
 ```bash
 # poetry 설치
 curl -sSL https://install.python-poetry.org | POETRY_HOME=/etc/poetry python3 -
@@ -22,3 +24,16 @@ exit
 `zsh: command not found: poetry` 에러가 발생하면 홈 디렉토리(~)에서 .local/bin 에 poetry 파일이 있는지 확인.
 
 `.zshrc` 파일에 `export PATH=$HOME/.local/bin:$PATH`를 추가할 것
+<br/><br/>
+
+## startproject
+
+---
+
+```bash
+# 현재 폴더에 config project를 생성한다.
+django-admin startproject config .
+```
+
+- config: project name
+- .: directory
