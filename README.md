@@ -36,6 +36,9 @@ django-admin startproject config .
 
 # 장고 프로젝트 실행
 python manage.py runserver
+
+# 마이그레이션 적용
+python manage.py migrate
 ```
 
 - config: project name
