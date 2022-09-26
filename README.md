@@ -33,6 +33,9 @@ exit
 ```bash
 # 현재 폴더에 config project를 생성한다.
 django-admin startproject config .
+
+# 장고 프로젝트 실행
+python manage.py runserver
 ```
 
 - config: project name
