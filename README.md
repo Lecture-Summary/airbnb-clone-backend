@@ -43,3 +43,5 @@ python manage.py migrate
 
 - config: project name
 - .: directory
+
+마이그레이션 파일: 디비의 형태를 변경시켜주는 코드
