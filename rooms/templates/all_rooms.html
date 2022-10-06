@@ -1,1 +1,11 @@
 <h1>{{title}}</h1>
+
+<ul>
+  {% for room in rooms %}
+  <a href="/rooms/{{room.pk}}">
+    <li>{{room.name}}<br /></li>
+    {% for amenity in room.amenities.all %}
+    <span>-{{ amenity.name}}<br /></span>
+    {% endfor %} </a
+  >{% endfor %}
+</ul>
