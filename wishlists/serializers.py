@@ -8,4 +8,4 @@ class WishlistSerializer(ModelSerializer):
 
     class Meta:
         model = WishList
-        fields = ("name", "rooms")
+        fields = ("pk", "name", "rooms")
